@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="icon" href="../diseño de los comentarios/imagenes/icono.png" type="icono/png">
+    <link rel="stylesheet" href="../diseño de los comentarios/style css/diseño.css">
+</head>
+<body>
+    <div class="comments-container">
+        <h2>Comentarios</h2>
+        <form class="comment-form">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="comment">Comentario</label>
+          <textarea id="comment" name="comment" required></textarea>
+          <button type="submit">Publicar</button>
+        </form>
+        <div class="comments-list">
+          <div class="comment">
+            <img src="../diseño de los comentarios/imagenes/usuario2.png" alt="Avatar" class="avatar">
+            <div class="comment-body">
+              <h4 class="comment-author">Usuario</h4>
+              <span class="comment-date"></span>
+              <p class="comment-text">Comentario</p>
+            </div>
+          </div>
+          <div class="comment">
+            <img src="../diseño de los comentarios/imagenes/usuario2.png" alt="Avatar" class="avatar">
+            <div class="comment-body">
+              <h4 class="comment-author">Usuario</h4>
+              <span class="comment-date"></span>
+              <p class="comment-text">Comentario</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
