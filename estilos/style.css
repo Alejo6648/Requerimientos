@@ -43,8 +43,3 @@ a:nth-child(4):hover{
     background-color: #a489ec;
     color: white;
 }
-img{
-    width: 250px;
-    height: 250px;
-    align-self: flex-start;
-}
