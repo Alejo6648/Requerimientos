@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: floralwhite;
+}
+.titulo{
+    padding: 45px;
+}
+.titulo2{
+    padding: 30px;
+}
+.titulo3{
+    padding: 20px;
+}
+.titulo4{
+    padding: 20px;
+}
+.titulo5{
+    padding: 10px;
+}
+.titulo6{
+    padding: 10px;
+}

@@ -33,13 +33,3 @@ a:nth-child(2):hover{
     background-color: #a489ec;
     color: white;
 }
-a:nth-child(3):hover{
-    transform: scale(1.2) rotate(10deg);
-    background-color: #a489ec;
-    color: white;
-}
-a:nth-child(4):hover{
-    transform: scale(1.2) rotate(0deg);
-    background-color: #a489ec;
-    color: white;
-}
