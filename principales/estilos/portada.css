@@ -64,7 +64,7 @@ header button{
     background-color: #ff4321;
     transition: width 0.5s;
     border-radius: 20px;
-    color: white;
+    color: #fff;
 }
 header button:hover{
     width: 100px;
