@@ -8,7 +8,8 @@ const modulo = document.getElementById("modulo");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  if (nombre.value === "" || cliente.value === "" || versiones.value === "" || versionactual.value === "" || modulo.value === "") {
+  if (nombre.value === "" || cliente.value === "" || versiones.value === "" || versionactual.value === "" || modulo.value === "") 
+  {
     alert("Por favor, complete todos los campos.");
   } else {
     alert("Formulario enviado correctamente.");
