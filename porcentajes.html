@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porcentajes</title>
+    <link rel="stylesheet" href="./css/porcentajes.css">
+    <script src="./js/porcentajes.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="rowForm">
+        <label for="cantidad">Cantidad</label>
+        <input type="number" name="cantidad" id="cantidad">
+    </div>
+    <div class="rowForm">
+        <label for="valor">Valor</label>
+        <input type="number" name="valor" id="valor">
+    </div>
+    <div class="rowForm">
+        <label for="descuentos"></label>
+        <button onclick="calcularQuincePorciento()">15%</button>
+        <button onclick="calcularCincuentaPorciento()">50%</button>
+        <button onclick="noCalcular()">sin descuento</button>
+    </div>
+    <p id="resultado"></p>
+</div>
+</body>
+</html>

@@ -6,7 +6,19 @@ form {
   h1 {
     font-size: 2em;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
+  }
+  .sub-container{
+    margin: auto;
+    width: 80%;
+  }
+  .relacion{
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 1.0em;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
   }
   
   label {
@@ -19,7 +31,7 @@ form {
     border: none;
     border-bottom: 1px solid #e1e1e1;
     font-size: 1.2em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 5px;
     width: 100%;
   }
@@ -41,3 +53,79 @@ form {
   button[type="reset"] {
     background-color: #dc3545;
   }
+  .result{
+    margin: 20px;
+}
+td{
+  padding: 0;
+  margin: 0;
+}
+input{
+  width: 210px;
+  height: 20px;
+  margin: 5px;
+}
+.actua{
+  height: 100px;
+  margin: 0;
+}
+.actua1{
+  height: 100px;
+  margin: 0;
+}
+
+table, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #ffff;
+}
+table{
+  width: 30%;
+}
+
+td{
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+th {
+  padding: 10px;
+}
+
+th{
+  background-color: rgb(238, 132, 102);
+  font-size: 1.6em;
+}
+.tabla4{
+  padding: 40px;
+  width: 200px;
+  border-bottom: 0px solid #f78848;
+}
+style{
+  font-size: 1em;
+  text-align: left;
+}
+
+
+.tabla{
+  padding: 10px;
+  border-top: 0px solid #ffff;
+  text-align: center;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  width: 10%;
+  height: 35px;
+  margin: 10px;
+}
+
+.result{
+  margin: 20px;
+}
